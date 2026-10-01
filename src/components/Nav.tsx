@@ -11,7 +11,8 @@ const NAV_ITEMS = [
   { label: "Product", href: "/#features" },
   { label: "Who it's for", href: "/#use-cases" },
   { label: "Docs", href: "https://docs.theacompute.com" },
-  { label: "GitHub", href: "https://github.com/theacompute" },
+  // Hidden until the GitHub org is public.
+  // { label: "GitHub", href: "https://github.com/theacompute" },
   { label: <XLogo className="h-4 w-4" />, href: "https://x.com/theacompute" },
 ];
 

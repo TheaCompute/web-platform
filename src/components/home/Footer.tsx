@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { GitHubLogo, XLogo } from "@/components/icons";
+import { XLogo } from "@/components/icons";
 
 const networkLinks = [
   { label: "Chat", href: "/app/chat" },
@@ -19,7 +19,8 @@ const developerLinks = [
 
 const socialLinks = [
   { label: "X", href: "https://x.com/theacompute", Icon: XLogo },
-  { label: "GitHub", href: "https://github.com/theacompute", Icon: GitHubLogo },
+  // Hidden until the GitHub org is public. To restore, uncomment and import GitHubLogo.
+  // { label: "GitHub", href: "https://github.com/theacompute", Icon: GitHubLogo },
 ];
 
 export function Footer() {
