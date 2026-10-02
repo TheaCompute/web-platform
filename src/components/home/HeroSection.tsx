@@ -19,7 +19,7 @@ export function HeroSection() {
         <div>
           <Eyebrow>
             <PixelHeart className="h-3 w-3.5" />
-            I&apos;m in open beta on Robinhood Chain
+            $THEA: 0xd305874bb46d8ec5a29cbea757f0172cc698b686
           </Eyebrow>
 
           <p className="mt-7 font-display text-2xl font-bold text-berry">Hi, I&apos;m Thea.</p>
