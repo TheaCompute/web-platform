@@ -26,8 +26,7 @@ const RESOURCES: LinkItem[] = [
 
 const COMPANY: LinkItem[] = [
   { label: "X / @theacompute", href: "https://x.com/theacompute" },
-  // Hidden until the GitHub org is public.
-  // { label: "GitHub", href: "https://github.com/theacompute" },
+  { label: "GitHub", href: "https://github.com/theacompute" },
 ];
 
 export function Footer() {
